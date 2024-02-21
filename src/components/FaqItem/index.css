@@ -1,0 +1,37 @@
+/* Write your code here. */
+.headRowComt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.frst-cont {
+  border: solid 1px #d7dae6;
+  border-radius: 10px;
+  padding: 20px;
+  list-style: none;
+  margin-bottom: 10px;
+}
+.head {
+  font-family: Roboto;
+  font-size: 20px;
+}
+.imgicon {
+  height: 25px;
+}
+.para {
+  font-family: Roboto;
+  color: #9aa5b1;
+  font-size: 20px;
+}
+.imgbtn {
+  border: none;
+  background: none;
+}
+.answertextrow {
+  display: none;
+  visibility: hidden;
+}
+.answertextrowalt {
+  display: block;
+  visibility: visible;
+}

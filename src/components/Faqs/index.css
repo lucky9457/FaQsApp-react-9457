@@ -1,0 +1,36 @@
+/* Write your code here. */
+.headname {
+  color: #cb8805;
+  font-size: 40px;
+  font-family: Roboto;
+  text-align: center;
+}
+.Faqcard {
+  background-color: #ffffff;
+  height: 90%;
+  padding: 40px;
+  border-radius: 10px;
+}
+.main-container {
+  background-color: #f1f5f8;
+  background-size: cover;
+  height: 100%;
+  min-height: 100vh;
+  padding: 40px;
+}
+@media (width<=576px) {
+  .main-container {
+    padding: 20px;
+    min-height: 100vh;
+  }
+  .Faqcard {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 80%;
+  }
+}
+.ulClass {
+  padding-left: 0px;
+}
